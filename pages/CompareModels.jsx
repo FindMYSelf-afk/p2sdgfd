@@ -110,7 +110,7 @@ const CompareModels = () => {
           High
         </button>
       </div>
-      <div className="flex flex-col justify-center left-0 right-0 text-center text-white">
+      <div className="flex flex-col justify-center left-0 right-0 text-center text-white self-center">
         <h2 className="text-center self-center text-nowrap text-[#e63b80] font-extrabold">
           Hotsness Votes
         </h2>
