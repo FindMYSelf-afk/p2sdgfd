@@ -96,3 +96,16 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes scale-up-down {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.loading-text {
+  animation: scale-up-down 1s ease-in-out infinite;
+}
