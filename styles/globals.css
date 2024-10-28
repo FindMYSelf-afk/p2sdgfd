@@ -107,5 +107,17 @@ body {
 }
 
 .loading-text {
-  animation: scale-up-down 1s ease-in-out infinite;
+  animation: scale-up-down 0.5s ease-in-out infinite;
+}
+@keyframes fadeOpacity {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading-opacity {
+  animation: fadeOpacity 1s ease-in-out infinite alternate;
 }
