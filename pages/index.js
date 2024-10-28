@@ -48,7 +48,7 @@ export default function Home() {
         </Link>
         <Link
           className="self-center md:w-full text-center fixed bottom-0 text-md md:text-xl bg-red-200 px-10 rounded-xl py-1 text-nowrap  text-[#e63b80] font-extrabold"
-          href={"#"}>
+          href={"/contact"}>
           Advertise Your Brand (Contact Developer)
         </Link>
       </div>
