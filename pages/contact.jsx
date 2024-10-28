@@ -44,11 +44,11 @@ export default function Contact() {
   };
 
   return (
-    <div className='flex flex-col bg-red-200 w-screen h-screen justify-center'>
-      <div className='flex flex-col self-center border-2 rounded-lg w-fit px-10 border-[#e63b80] text-black'>
+    <div className='flex flex-col bg-red-200 w-screen h-screen sm:px-10  justify-center'>
+      <div className='flex flex-col self-center  border-2 rounded-lg w-full px-10 border-[#e63b80] text-black'>
         <h1 className='font-extrabold text-[#e63b80] p-2 text-xl md:text-2xl text-center'>Contact for Brand Advertise</h1>
-        <form onSubmit={handleSubmit} className='flex flex-col'>
-        <div className="flex flex-row justify-between gap-4 my-5 " >
+        <form onSubmit={handleSubmit} className='flex flex-col '>
+        <div className="flex flex-row justify-between gap-2 md:gap-4 my-5 " >
           <label className=" font-extrabold text-[#e63b80]" htmlFor="name">Name:</label>
           <input
           className='rounded-lg py-2'
@@ -59,7 +59,7 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="flex flex-row justify-between gap-4 my-5 " >
+        <div className="flex flex-row justify-between gap-2 md:gap-4 my-5 " >
           <label className=" font-extrabold text-[#e63b80]" htmlFor="purpose">Purpose of Contact:</label>
           <input
           className='rounded-lg py-2'
@@ -70,7 +70,7 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="flex flex-row justify-between gap-4 my-5 " >
+        <div className="flex flex-row justify-between gap-2 md:gap-4 my-5 " >
           <label className=" font-extrabold text-[#e63b80]" htmlFor="email">Email:</label>
           <input
           className='rounded-lg py-2'
@@ -81,7 +81,7 @@ export default function Contact() {
             required
           />
         </div>
-        <div className="flex flex-row justify-between gap-4 my-5 " >
+        <div className="flex flex-row justify-between gap-2 md:gap-4 my-5 " >
           <label className=" font-extrabold text-[#e63b80]" htmlFor="message">Message:</label>
           <textarea
             id="message"
