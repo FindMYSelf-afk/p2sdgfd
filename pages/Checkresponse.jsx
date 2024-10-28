@@ -10,7 +10,7 @@ export default function FetchData() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/getResponse'); // Adjust this to your actual endpoint
+        const response = await fetch('/api/hs'); // Adjust this to your actual endpoint
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
